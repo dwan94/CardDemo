@@ -138,7 +138,6 @@ a {
   position: relative;
   height: 340px;
   width: 100%;
-  /*background: #e0efe3;*/
 }
 
 .wave-cover-first {
@@ -182,7 +181,6 @@ a {
 }
 
 .provider-container {
-  /*display: flex;*/
   justify-content: center;
   align-items: center;
   z-index: 4;
@@ -217,4 +215,9 @@ a {
   padding: 15px;
   color: #FFFFFF;
   box-shadow: 0 0 15px 0 rgb(0 0 0 / 75%);
+}
+
+.button-container .compare-link {
+  color:#FFFFFF;
+  cursor: pointer;
 }
