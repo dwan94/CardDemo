@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: proxima-nova, sans-serif;
   line-height: 1.6;
   margin: 0;
   min-height: 100vh;
@@ -13,6 +13,10 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+ul li {
+  vertical-align:center;
 }
 
 h2,
@@ -43,9 +47,12 @@ a {
 .logo a,
 .main-nav a {
   padding: 10px 15px;
-  text-transform: uppercase;
   text-align: center;
   display: block;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #636362;
 }
 
 .main-nav a {
@@ -67,6 +74,15 @@ a {
 .header,
 .main-nav {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-nav li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
 }
 
 .header {
@@ -75,9 +91,9 @@ a {
 }
 
 .cover {
-  background: gray;
+  background: #fff;
   position: fixed;
-  left: 0px;
+  left: 0;
   top: 20px;
   width: 100%;
   height: 100%;
@@ -103,7 +119,7 @@ a {
 }
 
 .content-box {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: proxima-nova, sans-serif;
   background-color: #ffffff;
   padding-top: 20px;
   margin-top: 44px;
@@ -117,7 +133,7 @@ a {
   grid-area: title;
   text-align: center;
   font-size: 1.6em;
-  font-width: 700;
+  font-weight: 500;
 }
 
 .sub-title {
@@ -166,7 +182,6 @@ a {
   z-index: 2;
 }
 
-
 .wave-cover-third {
   content: "";
   display: block;
@@ -189,7 +204,6 @@ a {
   width: 100%;
   top: 30px;
   flex-direction: column;
-
 }
 
 .img-container {
@@ -220,4 +234,28 @@ a {
 .button-container .compare-link {
   color:#FFFFFF;
   cursor: pointer;
+}
+
+.main-nav span {
+  font-size: 30px;
+  padding-right: 10px;
+  color: #eb5000;
+}
+
+.main-nav .phone-wrapper {
+  font-size: 1.5rem;
+  color: #34495e;
+}
+
+.main-nav .my-account {
+  padding: 8px 10px;
+  display: flex;
+  border: 1px solid #eb5000;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-energyuser.user-icon {
+  color: #a2a2a2;
 }
