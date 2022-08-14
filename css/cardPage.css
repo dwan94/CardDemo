@@ -243,7 +243,7 @@ a {
 }
 
 .main-nav .phone-wrapper {
-  font-size: 1.5rem;
+  font-size: clamp(1em, 1.5vw, 5em);
   color: #34495e;
 }
 
