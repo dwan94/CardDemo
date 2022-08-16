@@ -32,7 +32,7 @@ a {
 }
 
 .logo .logo-img {
-  width: 270px;
+  max-width: 240px;
   height: auto;
 }
 
@@ -40,11 +40,11 @@ a {
   margin-top: 5px;
 }
 
-@media only screen and (max-width: 931px) {
-  .header .main-nav {
-      display: none;
-  }
-}
+/*@media only screen and (max-width: 931px) {*/
+/*  .header .main-nav {*/
+/*      display: none;*/
+/*  }*/
+/*}*/
 
 
 .logo .logo-link {
@@ -209,7 +209,7 @@ a {
 @media only screen and (max-width: 460px) {
   .pop-up {
     width: 320px;
-    left: 129%;
+    left: 117%;
     height: 570px;
   }
   .img-container img {
@@ -223,6 +223,26 @@ a {
     min-width: 66%;
   }
 }
+
+
+@media only screen and (max-width: 376px) {
+  .pop-up {
+    width: 320px;
+    left: 125%;
+    height: 570px;
+  }
+  .img-container img {
+    width: 130px;
+    height: auto;
+  }
+  .img-container {
+    text-align: center;
+  }
+  .button {
+    min-width: 66%;
+  }
+}
+
 .content-box {
   font-family: proxima-nova, sans-serif;
   background-color: #ffffff;
@@ -358,11 +378,57 @@ a {
   align-items: center;
 }
 
-@media only screen and (max-width: 460px) {
-  .main-nav {
-    display:none}
-}
+/*@media only screen and (max-width: 460px) {*/
+/*  .main-nav {*/
+/*    display:none}*/
+/*}*/
 
 .icon-energyuser.user-icon {
   color: #a2a2a2;
+}
+@media only screen and (max-width: 1500px) {
+
+  .main-nav.right-section .account  {
+    height:20px;
+  }
+
+
+@media only screen and (max-width: 1200px) {
+  .main-nav.left-section {
+    display:none}
+  .main-nav.right-section .account  {
+    height:20px;
+}
+
+
+@media only screen and (max-width: 750px) {
+  .main-nav.right-section .telephone  {
+    display:none;
+    margin-left: 35px;
+  }
+  .main-nav.right-section .search  {
+    margin-left: 35px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .main-nav.right-section .search  {
+    display:none}
+  .main-nav.right-section .home  {
+    margin-left: 20px}
+
+}
+}
+
+@media only screen and (max-width: 500px) {
+  .main-nav.right-section .home  {
+    display:none}
+
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+  .main-nav.right-section {
+    display:none}
 }
