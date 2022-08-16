@@ -242,7 +242,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 415px) {
   .pop-up {
     width: 320px;
     left: 120%;
@@ -285,7 +285,7 @@ a {
 @media only screen and (max-width: 376px) {
   .pop-up {
     width: 320px;
-    left: 125%;
+    left: 127%;
     height: 570px;
   }
   .img-container img {
