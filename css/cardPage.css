@@ -205,6 +205,24 @@ a {
     min-width: 66%;
   }
 }
+@media only screen and (max-width: 508px) {
+  .pop-up {
+    width: 320px;
+    left: 103%;
+    height: 570px;
+  }
+  .img-container img {
+    width: 130px;
+    height: auto;
+  }
+  .img-container {
+    text-align: center;
+  }
+  .button {
+    min-width: 66%;
+  }
+}
+
 
 @media only screen and (max-width: 460px) {
   .pop-up {
@@ -224,6 +242,45 @@ a {
   }
 }
 
+@media only screen and (max-width: 412px) {
+  .pop-up {
+    width: 320px;
+    left: 120%;
+    height: 570px;
+  }
+  .img-container img {
+    width: 130px;
+    height: auto;
+  }
+  .img-container {
+    text-align: center;
+  }
+  .button {
+    min-width: 66%;
+  }
+}
+
+
+@media only screen and (max-width: 380px) {
+  .pop-up {
+    width: 320px;
+    left: 126%;
+    height: 570px;
+  }
+  .img-container img {
+    width: 130px;
+    height: auto;
+  }
+  .img-container {
+    text-align: center;
+  }
+  .button {
+    min-width: 66%;
+  }
+}
+
+
+
 
 @media only screen and (max-width: 376px) {
   .pop-up {
@@ -242,6 +299,30 @@ a {
     min-width: 66%;
   }
 }
+
+
+@media only screen and (max-width: 320px) {
+  .pop-up {
+    width: 299px;
+    left: 144%;
+    height: 467px;
+    top: 51%;
+  }
+  .img-container img {
+    width: 100px;
+    height: auto;
+  }
+  .img-container {
+    text-align: center;
+    top: 50%;
+  }
+  .button {
+    min-width: 66%;
+  }
+}
+
+
+
 
 .content-box {
   font-family: proxima-nova, sans-serif;
