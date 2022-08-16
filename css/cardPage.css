@@ -301,7 +301,10 @@ a {
 }
 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 321px) {
+  .provider-container {
+    top: -46px;
+  }
   .pop-up {
     width: 299px;
     left: 144%;
@@ -512,4 +515,15 @@ a {
 @media only screen and (max-width: 400px) {
   .main-nav.right-section {
     display:none}
+}
+
+
+@media only screen and (max-width: 321px) {
+  .provider-container {
+    top: -46px;
+  }
+  .button {
+    padding: 12px;
+    margin-top: -18px;
+  }
 }
