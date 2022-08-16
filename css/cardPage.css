@@ -40,6 +40,13 @@ a {
   margin-top: 5px;
 }
 
+@media only screen and (max-width: 931px) {
+  .header .main-nav {
+      display: none;
+  }
+}
+
+
 .logo .logo-link {
   padding: 0;
 }
@@ -69,13 +76,18 @@ a {
   border-bottom: 1px solid #a2a2a2;
   background-color: white;
   border-radius: 5px;
+  width: 100%;
 }
+
+
+
 
 .header,
 .main-nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .main-nav li {
@@ -142,7 +154,7 @@ a {
 @media only screen and (max-width: 939px) {
   .pop-up {
     width: 700px;
-    left: 67%;
+    left: 62%;
     height: 600px;
   }
   .img-container img {
@@ -157,13 +169,10 @@ a {
   }
 }
 
-
-
-
 @media only screen and (max-width: 779px) {
   .pop-up {
     width: 556px;
-    left: 80%;
+    left: 73%;
     height: 609px;
   }
   .img-container img {
@@ -180,9 +189,10 @@ a {
 
 @media only screen and (max-width: 552px) {
   .pop-up {
-    width: 439px;
-    left: 95%;
+    width: 392px;
+    left: 98%;
     height: 558px;
+    top: 43%;
   }
   .img-container img {
     width: 130px;
@@ -198,9 +208,9 @@ a {
 
 @media only screen and (max-width: 460px) {
   .pop-up {
-    width:  320px;
-    left: 126%;
-    height: 660px;
+    width: 320px;
+    left: 129%;
+    height: 570px;
   }
   .img-container img {
     width: 130px;
@@ -346,6 +356,11 @@ a {
   border-radius: 5px;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 460px) {
+  .main-nav {
+    display:none}
 }
 
 .icon-energyuser.user-icon {
